@@ -1,15 +1,15 @@
 {
-  "name": "my-whatsapp-session",
+  "name": "projet-spider-net-boz",
   "version": "1.0.0",
-  "description": "WhatsApp Session ID Generator like Levantér",
+  "description": "Bot WhatsApp multi-fonctions avec Baileys",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.5",
-    "express": "^4.19.2",
-    "qrcode": "^1.5.3",
-    "qrcode-terminal": "^0.12.0"
+    "@whiskeysockets/baileys": "^6.6.0",
+    "sqlite3": "^5.1.7",
+    "pino": "^8.17.0"
   }
 }
